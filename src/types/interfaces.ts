@@ -1,0 +1,84 @@
+export interface IRecipe {
+  key: string;
+  status?: string;
+  isFavorite?: boolean;
+  title: string;
+  subtitle?: string;
+  categories?: string;
+  source?: string;
+  yield?: string;
+  preptime?: string;
+  equipment?: string;
+  ingredients: IIngredient[];
+  directions?: string;
+  notes?: string;
+  canEmailOwner?: boolean;
+  owner_id: string;
+  owner_email: string;
+  lastModified?: string;
+}
+
+export interface IIngredient {
+  qty: number;
+  qty2: number;
+  uom: UOM;
+  desc: string;
+  isGroupHeader: boolean;
+}
+
+export type UOM =
+  | ''
+  | 'cup'
+  | 'cups'
+  | 'c'
+  | 'c.'
+  | 'C'
+  | 'teaspoon'
+  | 'teaspoons'
+  | 'tsp'
+  | 'tsp.'
+  | 't'
+  | 'tablespoon'
+  | 'tablespoons'
+  | 'tbsp'
+  | 'tbsp.'
+  | 'T'
+  | 'ounce'
+  | 'ounces'
+  | 'oz'
+  | 'oz.'
+  | 'pint'
+  | 'pints'
+  | 'pt'
+  | 'pt.'
+  | 'pound'
+  | 'pounds'
+  | 'lb'
+  | 'lb.'
+  | 'lbs'
+  | 'lbs.'
+  | 'gram'
+  | 'grams'
+  | 'g'
+  | 'g.'
+  | 'kilogram'
+  | 'kilograms'
+  | 'kg'
+  | 'kg.'
+  | 'stick'
+  | 'sticks'
+  | 'inch'
+  | 'inches'
+  | 'in'
+  | 'in.'
+  | 'foot'
+  | 'feet'
+  | 'ft'
+  | 'ft.'
+  | 'quart'
+  | 'quarts'
+  | 'qt'
+  | 'qt.'
+  | 'liter'
+  | 'liters'
+  | 'l';
