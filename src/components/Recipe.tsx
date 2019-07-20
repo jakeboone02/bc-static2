@@ -1,10 +1,10 @@
-import classnames from 'classnames';
-import React from 'react';
-import DocumentTitle from 'react-document-title';
-import { match } from 'react-router';
-import { APP_NAME } from '../constants/config';
-import recipes from '../constants/dataObject';
-import Ingredient from './Ingredient';
+import classnames from "classnames";
+import React from "react";
+import DocumentTitle from "react-document-title";
+import { match } from "react-router-dom";
+import { APP_NAME } from "../constants/config";
+import recipes from "../constants/dataObject";
+import Ingredient from "./Ingredient";
 
 interface RecipeProps {
   match: match<{ key: string }>;
@@ -17,7 +17,7 @@ const Recipe: React.FC<RecipeProps> = ({ match }) => {
     return <span>Please select a recipe.</span>;
   }
 
-  const documentTitle = recipe.title + ' - ' + APP_NAME;
+  const documentTitle = recipe.title + " - " + APP_NAME;
   const sourceClassName = classnames({ hidden: !recipe.source });
   const subtitleClassName = classnames({ hidden: !recipe.subtitle });
   const preptimeClassName = classnames({ hidden: !recipe.preptime });
@@ -26,7 +26,7 @@ const Recipe: React.FC<RecipeProps> = ({ match }) => {
   const directionsClassName = classnames({ hidden: !recipe.directions });
   const notesClassName = classnames({ hidden: !recipe.notes });
   const ingsClassName = classnames({
-    hidden: !recipe.ingredients.length && !recipe.equipment,
+    hidden: !recipe.ingredients.length && !recipe.equipment
   });
 
   const ings = recipe.ingredients.map(ing => <Ingredient ingredient={ing} />);

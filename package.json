@@ -7,7 +7,6 @@
     "@types/jest": "24.0.15",
     "@types/node": "12.6.3",
     "@types/react": "16.8.23",
-    "@types/react-bootstrap": "^0.32.19",
     "@types/react-document-title": "^2.0.3",
     "@types/react-dom": "16.8.4",
     "@types/react-router-dom": "^4.3.4",
@@ -16,7 +15,7 @@
     "format-quantity": "^0.3.2",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
-    "react-bootstrap": "^1.0.0-beta.9",
+    "react-bootstrap": "^1.0.0-beta.10",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -44,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "installConfig": {
+    "pnp": true
   }
 }
