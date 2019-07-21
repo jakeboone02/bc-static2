@@ -1,12 +1,12 @@
-import React from "react";
-import { Button, Col, Form, FormControl, Navbar, Row } from "react-bootstrap";
-import DocumentTitle from "react-document-title";
-import { HashRouter as Router, Route } from "react-router-dom";
-import { APP_NAME } from "../constants/config";
-import recipes from "../constants/dataObject";
-import "../styles/main.scss";
-import Recipe from "./Recipe";
-import RecipeList from "./RecipeList";
+import React from 'react';
+import { Button, Col, Form, FormControl, Navbar, Row } from 'react-bootstrap';
+import DocumentTitle from 'react-document-title';
+import { HashRouter as Router, Route } from 'react-router-dom';
+import { APP_NAME } from '../constants/config';
+import recipes from '../constants/dataObject';
+import '../styles/main.scss';
+import Recipe from './Recipe';
+import RecipeList from './RecipeList';
 
 const App: React.FC = () => {
   const recipeArray = Object.keys(recipes).map(k => recipes[k]);
@@ -22,8 +22,8 @@ const App: React.FC = () => {
         </Navbar>
         <Row>
           <Col sm={{ span: 8, order: 2 }}>
-            <Route exact path={"/"} component={Recipe} />
-            <Route path={"/:key"} component={Recipe} />
+            <Route exact path={'/'} component={Recipe} />
+            <Route path={'/:key'} component={Recipe} />
           </Col>
           <Col sm={{ span: 4, order: 1 }}>
             <RecipeList recipes={recipeArray} />
