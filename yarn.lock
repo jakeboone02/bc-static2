@@ -2006,10 +2006,11 @@ babel-plugin-dynamic-import-node@^2.3.0:
     object.assign "^4.1.0"
 
 babel-plugin-istanbul@^5.1.0:
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/babel-plugin-istanbul/-/babel-plugin-istanbul-5.1.4.tgz#841d16b9a58eeb407a0ddce622ba02fe87a752ba"
-  integrity sha512-dySz4VJMH+dpndj0wjJ8JPs/7i1TdSPb1nRrn56/92pKOF9VKC1FMFJmMXjzlGGusnCAqujP6PBCiKq0sVA+YQ==
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-istanbul/-/babel-plugin-istanbul-5.2.0.tgz#df4ade83d897a92df069c4d9a25cf2671293c854"
+  integrity sha512-5LphC0USA8t4i1zCtjbbNb6jJj/9+X6P37Qfirc/70EQ34xKlMW+a1RHGwxGI+SwWpNwZ27HqvzAobeqaXwiZw==
   dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
     find-up "^3.0.0"
     istanbul-lib-instrument "^3.3.0"
     test-exclude "^5.2.3"
@@ -2473,9 +2474,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000939, caniuse-lite@^1.0.30000955, caniuse-lite@^1.0.30000980, caniuse-lite@^1.0.30000984:
-  version "1.0.30000984"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000984.tgz#dc96c3c469e9bcfc6ad5bdd24c77ec918ea76fe0"
-  integrity sha512-n5tKOjMaZ1fksIpQbjERuqCyfgec/m9pferkFQbLmWtqLUdmt12hNhjSwsmPdqeiG2NkITOQhr1VYIwWSAceiA==
+  version "1.0.30000985"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000985.tgz#0eb40f6c8a8c219155cbe43c4975c0efb4a0f77f"
+  integrity sha512-1ngiwkgqAYPG0JSSUp3PUDGPKKY59EK7NrGGX+VOxaKCNzRbNc7uXMny+c3VJfZxtoK3wSImTvG9T9sXiTw2+w==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3546,9 +3547,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.122, electron-to-chromium@^1.3.191:
-  version "1.3.196"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.196.tgz#1a7885855880fa3ae7a8908c442757e561eec82b"
-  integrity sha512-NFGRHzY0x8yIUFnAthKxaOKe5q+c8jjvyQM2pMq2+59QORz8AN5+qXPJBwX05kz2uEtyraX2XxB0LPT+7EE6vw==
+  version "1.3.198"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.198.tgz#932f74a9854eeb45436764c9c26433cf683fde7a"
+  integrity sha512-2GcPd1bkU8EGPa3AhxzPswbNvh5wgK4/8r3fg+sSVyVlCWaN9Tq+tVkJLktMZIcrHiZF0vJpnktfoYXFTvjCVg==
 
 elliptic@^6.0.0:
   version "6.5.0"
@@ -4280,9 +4281,9 @@ form-data@~2.3.2:
     mime-types "^2.1.12"
 
 format-quantity@^0.3.2:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/format-quantity/-/format-quantity-0.3.3.tgz#dc4dab150de807d06211b3924ccd35781b33dfb2"
-  integrity sha512-Gu1JiBriLiAlKhgm8CcSZ+ZpfYMSrWZBFBejYsGEDK3/BEasIcjXthIkQ2I82KXne6f9WI/GUlLzuuWxMWrAkw==
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/format-quantity/-/format-quantity-0.3.4.tgz#07e114b1ca307e1ef50f3ace8d62d315f1b819ec"
+  integrity sha512-u5rCJ48HL1RGeN/dJQMw+HzTS12kpU8TOYi0ZnzjAOmXilXjBgkwSewTx3VvE5XKtogLv9m9dLKm5Z1eg38eOA==
 
 forwarded@~0.1.2:
   version "0.1.2"
