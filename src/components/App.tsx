@@ -1,5 +1,13 @@
 import React from 'react';
-import { Button, Col, Form, FormControl, Navbar, Row } from 'react-bootstrap';
+import {
+  Button,
+  Col,
+  Container,
+  Form,
+  FormControl,
+  Navbar,
+  Row,
+} from 'react-bootstrap';
 import DocumentTitle from 'react-document-title';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import { APP_NAME } from '../constants/config';
@@ -29,6 +37,14 @@ const App: React.FC = () => {
             <RecipeList recipes={recipeArray} />
           </Col>
         </Row>
+        <Container fluid>
+          <Row>
+            <Col xs={12}>
+              <hr />
+              <p>&copy; Jake and Angie Boone 2019</p>
+            </Col>
+          </Row>
+        </Container>
       </Router>
     </DocumentTitle>
   );
