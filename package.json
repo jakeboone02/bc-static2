@@ -13,7 +13,7 @@
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "format-quantity": "^0.6.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-document-title": "^2.0.3",
